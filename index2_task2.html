@@ -1,71 +1,49 @@
 <!DOCTYPE HTML>
-<html>
+<HTML>
     <head>
         <meta charset="UTF-8">
-        <title>Semantic Elements</title>
-        <meta name="distribution" content="training for Semantic Elements">
+        <title>Form</title>
+        <meta name="distribution" content="training for Form">
         <style></style>
         <link rel="" href="">
         <script></script>
     </head>
     <body>
-        <header>
-            <h1>موقع تعليم برمجه</h1>
-            <a href="https://www.w3schools.com/html/default.asp" target="_blank"> html</a>
-            <a href="https://www.w3schools.com/python/default.asp" target="_blank"> python</a>
-            <a href="https://www.w3schools.com/sql/default.asp" target="_blank"> SQL</a>
-            <a href="https://www.w3schools.com/css/default.asp" target="_blank"> css</a>
-            <a href="https://www.w3schools.com/js/default.asp" target="_blank"> js</a>
-        </header><br>
-    <nav>
-        <a href="https://www.w3schools.com/"  target="_blank">W3school</a>
-        - <a href="https://codeforces.com/"  target="_blank">codeforces</a>
-        -<a href="https://leetcode.com/"  target="_blank">leetcode</a>
-        -<a href="https://www.youtube.com/@ArabicCompetitiveProgramming"  target="_blank">Dr.Mostafa Sa3d</a>
-        -<a href="https://www.youtube.com/@ElzeroWebSchool"  target="_blank">Eng.Ossama Mohamed</a>
-        -<a href="https://www.youtube.com/@AdelNasim"  target="_blank">Eng.Adel Nasim</a>
-    </nav>
-    <section>
-        <section>
-            <article>
-                <h4>Problem solving</h4><br>
-                <img src="PS.png" width="400px" alt="click her">
-                <p>
-                    Quality Glossary Definition: Problem solving. Problem solving is the act of defining a problem; determining the cause of the problem; identifying, prioritizing, and selecting alternatives for a solution; and implementing a solution.
-                <a href="https://asq.org/quality-resources/problem-solving#:~:text=Quality%20Glossary%20Definition%3A%20Problem%20solving,solution%3B%20and%20implementing%20a%20solution." target="_blank">to read more....</a>
-                </p>
-
-            </article><br>
-            <article>
-                <h4>ICPC</h4><br>
-                <img src="ICPC_International_Collegiate_Programming_Contest_logo,_Aug_2018(1).png" width="400px" alt="click her">
-                <p>
-                    The International Collegiate Programming Contest, known as the ICPC, is an annual multi-tiered competitive programming
-                <a href="https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest" target="_blank">to read more.... </a>
-                </p>
-            </article><br>
-            <article>
-                <h4>مجالات البرمجه</h4>
-                <img src="main-qimg-035b15a4675da1b13c70623240ebddb6-lq.jpg" width="602" alt="click her">
-                <p>
-                    ما هي البرمجة؟ وما هي مجالاتها بشكل عام؟
-                <a href="https://ar.quora.com/%D9%85%D8%A7-%D9%87%D9%8A-%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D9%85%D8%A7-%D9%87%D9%8A-%D9%85%D8%AC%D8%A7%D9%84%D8%A7%D8%AA%D9%87%D8%A7-%D8%A8%D8%B4%D9%83%D9%84-%D8%B9%D8%A7%D9%85" target="_blank">اقرا المذيد</a>
-                </p>
-            </article>
-        </section>
-        <aside>
-            <h2>Categories</h2>
-            <ul>
-                <li>Web development</li>
-                <li>Mobile App development</li>
-                <li>Desktop development</li>
-                <li> AI Engineering </li>
-                <li>Cyber security</li>
-            </ul>
-        </aside>
-    </section>
-    <footer>
-        <p> &copy; Copyright 2023</p>
-    </footer>
+        <div class="form">
+            <form method="post" novalidate>
+                <div  class="search">
+                    <label for="s">Search</label>
+                    <br><br>
+                    <input type="search" id="s" autofocus placeholder=" Enter A Search Word">
+                </div>
+                <br>
+                <div class="file">
+                    <label for="U">Upload</label>
+                    <br><br>
+                    <input type="file" id="U" >
+                </div>
+                <br>
+                <div class="url">
+                    <label for="url">URL</label>
+                    <br><br>
+                    <input type="search" id="url" required>
+                </div>
+                <br>
+                <div class="date">
+                    <label for="d">Date</label>
+                    <input type="date" id="d" value="1982-10-25">
+                </div>
+                <br>
+                <div class="m">
+                    <label for="m">Month</label>
+                    <input type="month" id="m" value="1982-10">
+                </div>
+                <br>
+                <div class="S&R">
+                    <input type="reset" value="Empty">
+                    <input type="submit" value=" Send">
+                </div>
+            </form>
+        </div>
     </body>
-</html>
+</HTML>

@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<HTML>
+    <head>
+        <meta charset="UTF-8">
+        <title>Form</title>
+        <meta name="distribution" content="training for Form">
+        <style></style>
+        <link rel="" href="">
+        <script></script>
+    </head>
+    <body>
+        <form  method="get">
+            <div class="Token">
+                <label for="h">Token</label>
+                <input type="hidden" id="h" value="b92f1fc2fce391ad7af633723afd3055" name="Token">
+            </div>
+            <div class="email">
+                <label for="e">Email</label>
+                <input type="text" id="e"  value="o@o.com" readonly name=" Email">
+            </div>
+            <div class="name">
+                <label for="un">Username (5 to 20 characters)</label>
+                <input type="text" id="un" minlength="5" maxlength="20" autofocus name=" Username">
+            </div>
+            <hr>
+            <div class="skills">
+                <div>
+                    <input type="checkbox" name="skills" value="Problem Solving" id="ps">
+                    <label for="ps">Problem Solving</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="skills" value="Logical Thinking" id="ls">
+                    <label for="ls">Logical Thinking</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="skills" value="Advanced Search" id="as">
+                    <label for="as">Advanced Search</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="skills" value="Analysis" id="a">
+                    <label for="a">Analysis</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="skills" value="Planning" id="p">
+                    <label for="p">Planning</label>
+                </div>
+            </div>
+            <hr>
+            <div class="job">
+                <div>
+                    <input type="radio" name="job" value="Front-End Developer" id="fed">
+                    <label for="fed">Front-End Developer</label>
+                </div>
+                <div>
+                    <input type="radio" name="job" value="Back-End Developer" id="bed">
+                    <label for="bed">Back-End Developer</label>
+                </div>
+                <div>
+                    <input type="radio" name="job" value="Business Analyst" id="ba">
+                    <label for="ba">Business Analyst</label>
+                </div>
+                <div>
+                    <input type="radio" name="job" value="Project Manager" id="bm">
+                    <label for="bm">Project Manager</label>
+                </div>
+                <div>
+                    <input type="radio" name="job" value="Scrum Master" id="sm">
+                    <label for="sm">Scrum Master</label>
+                </div>
+            </div>
+
+            <div class="BS">
+                <label for="lang">Choose Book:</label>
+                <select id="lang">
+                    <optgroup label="PHP">
+                        <option selected value="5">V5.0</option>
+                        <option value="7">V7.0</option>
+                        <option value="8">V8.0</option>
+                    </optgroup>
+                    <optgroup label="Python">
+                        <option value="2">V2.0</option>
+                        <option value="3">V3.0</option>
+                        <option value="4">V3.9</option>
+                    </optgroup>
+                </select>
+            </div>
+            <hr>
+            <div>
+                <textarea name=" brief" cols="30" rows="10" placeholder=" Write Here Why You Want To Learn Programming"></textarea>
+            </div>
+            <div class="S&R">
+                <input type="reset" value="Empty">
+                <input type="submit" value=" Send">
+            </div>
+        </form>
+    </body>
+</HTML>
