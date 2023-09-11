@@ -1,0 +1,89 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign up</title>
+        <meta name="description" content="to sign up">
+    </head>
+    <body align="center">
+        <header>
+            <font ><h1>Sign up</h1></font>
+        </header>
+        <section>
+            <center>
+            <form method="post">
+                <fieldset  style="width : 500px">
+                 <legend align="center">sign up</legend>
+                <section>
+                    <label for="u">Username</label>
+                    <input type="text" placeholder="Username" required autofocus id="u">
+                </section>
+                <br>
+                <section>
+                    <label for="e">Email</label>
+                    <input type="email" placeholder="e-mail" required  id="e">
+                </section>
+                <br>
+                <section>
+                    <label for="p">password</label>
+                    <input type="password" placeholder="password (8-24)character" minlength="8" maxlength="24" required id="p">
+                </section>
+                </fieldset>
+                <br>
+
+                    <fieldset  style="width : 500px">
+                        <legend align="center">gender</legend>
+                <section>
+                    <input type="radio" name="gender" value="male" id="m">
+                    <label for="m">male</label>
+                </section>
+                <section>
+                    <input type="radio" name="gender" value="female" id="f">
+                    <label for="f">female</label>
+                </section>
+                    </fieldset>
+                <br>
+                <fieldset  style="width : 500px">
+                    <legend align="center">subject</legend>
+                    <section >
+                        <input type="checkbox" name="subject" value="Object Oriented Programing" id="oop">
+                        <label for="oop">Object Oriented Programing</label>
+                        <br>
+                        <input type="checkbox" name="subject" value="Introduction to Database systems" id="db">
+                        <label for="db">Introduction to Database systems</label>
+                        <br>
+                        <input type="checkbox" name="subject" value="Computer Networks Technology" id="cnt">
+                        <label for="cnt">Computer Networks Technology</label>
+                        <br>
+                        <input type="checkbox" name="subject" value="Introduction to Software Engineering" id="swe">
+                        <label for="swe">Introduction to Software Engineering</label>
+                        <br>
+                        <input type="checkbox" name="subject" value="Mathematics-3" id="m3">
+                        <label for="m3">Mathematics-3</label>
+                        <br>
+                        <input type="checkbox" name="subject" value="Probability and Statistics-2" id="p2">
+                        <label for="p2">Probability and Statistics-2</label>
+                    </section>
+                </fieldset>
+                <br>
+
+                <fieldset  style="width : 500px">
+                    <legend align="center">way pay</legend>
+               <section>
+                   <div class="way pay" role="checkbox" tabindex="0" aria-labelledby="f">fawry</div>
+
+                   <div class="way pay" role="checkbox" tabindex="0" aria-labelledby="p">paybal</div>
+
+                   <div class="way pay" role="checkbox" tabindex="0" aria-labelledby="a">cash</div>
+
+               </section>
+                </fieldset>
+                <br>
+                <section>
+                    <input type="submit">
+                </section>
+            </form>
+            </center>
+        </section>
+    </body>
+</html>
