@@ -1,0 +1,21 @@
+div{
+    margin: 16px;
+}
+.d1{
+    border: 4px solid orangered;
+    padding: 24px;
+}
+.d1 p{
+    background-color: #cccac9;
+    border: inherit;
+    padding: inherit;
+}
+.d2{
+    border: 4px solid green;
+    padding: 24px;
+}
+.d2 p{
+    background-color: #cccac9;
+    border: inherit;
+    padding: inherit;
+}

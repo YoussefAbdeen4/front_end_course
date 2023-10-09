@@ -1,0 +1,22 @@
+div{
+    background-color: #aaa9a9;
+    padding: 24px;
+    margin: 16px;
+    max-width: 400px;
+}
+.one{
+ width: 400px;
+    white-space: normal;
+}
+.two{
+
+    line-height: 1.6;
+    max-height: 2px;
+    overflow: hidden;
+}
+.three{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
